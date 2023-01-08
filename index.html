@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Roboto:wght@300;400;700&display=swap&_v=20230108192421"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.min.css?_v=20230108192421" />
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20230108192421"
+/>
+  <title>Главная</title>
+</head>
+
+
+<body>
+  <header class="header">
+    <div class="header__container container">
+
+        <!-- Logo -->
+        <a href="#" class="header__logo logo"><img src="images/logo.svg" alt=""></a>
+
+        <!-- Navbar -->
+        <navbar class="header__navbar" id="navbar">
+
+            <!-- Menu List -->
+            <ul class="header__menu">
+                <li class="header__menu-item">
+                    <a href="" class="header__menu-link">Доставка</a>
+                </li>
+                <li class="header__menu-item">
+                    <a href="" class="header__menu-link">Статьи</a>
+                </li>
+                <li class="header__menu-item">
+                    <a href="" class="header__menu-link">О нас</a>
+                </li>
+                <li class="header__menu-item">
+                    <a href="" class="header__menu-link">Контакты</a>
+                </li>
+            </ul>
+
+            <!-- Header Email -->
+            <a href="#" class="header__email">support@sofiadoors.com</a>
+
+            <!-- Header Phone -->
+            <a href="#" class="header__phone">8 (800) 550-81-79</a>
+
+            
+        </navbar>
+        
+        <!-- Button -->
+        <a href="#" class="header__button button arrows">Каталог</a>
+
+        <!-- Phone Button -->
+        <a href="#" class="header__mobile-phone">
+            <img src="images/icons/phone.svg" alt="">
+        </a>
+
+        <!-- Open Menu Button -->
+        <button class="header__mobile-burger" id="openMenuBtn"></button>
+
+    </div>
+</header>
+  <main>
+    <!-- First Page Intro -->
+    <section class="intro">
+      <!-- Slider  -->
+      <div class="swiper intro__sliders">
+
+        <!-- Sliders Wrapper -->
+        <div class="swiper-wrapper intro__sliders-wrapper">
+          <!-- Intro Slide 1 -->
+          <div class="swiper-slide intro__slide" style="background-image:url(images/intro-bg.jpg);">
+
+            <div class="intro__slide-box">
+              <!-- Title -->
+              <h3 class="intro__slide-title">
+                Classic Wood Stile
+              </h3>
+              <!-- Subtitle -->
+              <p class="intro__slide-subtitle">enterior-exterior</p>
+              <!-- Description -->
+              <p class="intro__slide-description">
+                Приглашает к сотрудничеству архитекторов, дизайнеров и строителей
+              </p>
+              <!-- View -->
+              <a href="#" class="intro__slide-button button arrows">подробнее</a>
+            </div>
+
+          </div>
+          <!-- Intro Slide 1 -->
+          <div class="swiper-slide intro__slide" style="background-image:url(images/intro-bg.jpg);">
+
+            <div class="intro__slide-box">
+              <!-- Title -->
+              <h3 class="intro__slide-title">
+                Classic Wood Stile
+              </h3>
+              <!-- Subtitle -->
+              <p class="intro__slide-subtitle">enterior-exterior</p>
+              <!-- Description -->
+              <p class="intro__slide-description">
+                Приглашает к сотрудничеству архитекторов, дизайнеров и строителей
+              </p>
+              <!-- View -->
+              <a href="#" class="intro__slide-button button arrows">подробнее</a>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Slider Next -->
+        <button class="intro__slider-next intro__slider-btns">
+          <img src="images/icons/arrow.svg" alt="Next Slider">
+        </button>
+
+        <!-- Slider Prev -->
+        <button class="intro__slider-prev intro__slider-btns">
+          <img src="images/icons/arrow.svg" alt="Prev Slider">
+        </button>
+
+        <!-- Slider Pagination -->
+        <div class="intro__slider-pagination"></div>
+
+      </div>
+    </section>
+
+    <!-- Unique Section -->
+    <section class="unique">
+      <div class="container">
+        <ul class="unique__row row">
+          <li class="unique__col col-lg-6">
+            <div class="unique__block">
+              <!-- Image -->
+              <picture><source srcset="images/unique-1.webp" type="image/webp"><img src="images/unique-1.jpg" alt="" class="unique__image"></picture>
+              <!-- Title -->
+              <h3 class="unique__title">Двери на заказ</h3>
+              <!-- Description -->
+              <p class="unique__description">
+                На собственной фабрике мы создаем красивые, безопасные и практически вечные двери, межкомнатные
+                перегородки, стеновые панели и другие решения для вашего интерьера.
+              </p>
+              <!-- Link to Unique -->
+              <a href="#" class="unique__link">заказать уникальную дверь</a>
+            </div>
+          </li>
+          <li class="unique__col col-lg-6">
+            <div class="unique__block">
+              <!-- Image -->
+              <picture><source srcset="images/unique-2.webp" type="image/webp"><img src="images/unique-2.jpg" alt="" class="unique__image"></picture>
+              <!-- Title -->
+              <h3 class="unique__title">3D фрезеровка</h3>
+              <!-- Description -->
+              <p class="unique__description">
+                Изделия, которые создает фрезерный станок, управляемый компьютером, отличаются высочайшим качеством,
+                абсолютной детализацией и идеальной точностью.
+              </p>
+              <!-- Link to Unique -->
+              <a href="#" class="unique__link">выбрать из каталога</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Showcase of goods -->
+    <section class="showcase">
+      <div class="showcase__container container">
+
+        <!-- Title of Page -->
+        <h1 class="showcase__title">Витрина товаров</h1>
+
+        <!-- Categories of doors -->
+        <ul class="showcase__categories">
+          <li class="showcase__categories-item active">
+            <a href="" class="showcase__categories-link">CATEGORY</a>
+          </li>
+          <li class="showcase__categories-item">
+            <a href="" class="showcase__categories-link">CATEGORY</a>
+          </li>
+          <li class="showcase__categories-item">
+            <a href="" class="showcase__categories-link">CATEGORY</a>
+          </li>
+          <li class="showcase__categories-item">
+            <a href="" class="showcase__categories-link">CATEGORY</a>
+          </li>
+          <li class="showcase__categories-item">
+            <a href="" class="showcase__categories-link">CATEGORY</a>
+          </li>
+        </ul>
+
+        <!-- Doors -->
+        <ul class="doors row">
+          <!-- Door -->
+          <li class="col-lg-4 col-md-6">
+            <div class="door">
+              <!-- Title -->
+              <h3 class="door__title">SKYLINE Модель 55.21</h3>
+
+              <!-- Price -->
+              <b class="door__price">24 500 ₽</b>
+
+              <!-- Picture -->
+              <div class="swiper door__slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide door__img-box">
+                    <picture><source srcset="images/door-1.webp" type="image/webp"><img src="images/door-1.jpg" alt="" class="door__img"></picture>
+                  </div>
+                  <div class="swiper-slide door__img-box">
+                    <picture><source srcset="images/door-1.webp" type="image/webp"><img src="images/door-1.jpg" alt="" class="door__img"></picture>
+                  </div>
+                  <div class="swiper-slide door__img-box">
+                    <picture><source srcset="images/door-1.webp" type="image/webp"><img src="images/door-1.jpg" alt="" class="door__img"></picture>
+                  </div>
+                </div>
+
+                <div class="df">
+                  <!-- Colors of Door -->
+                  <ul class="door__colors"></ul>
+
+                  <!-- Order -->
+                  <a href="#" class="door__purchase">купить</a>
+                </div>
+              </div>
+
+
+
+            </div>
+          </li>
+          <!-- Door -->
+          <li class="col-lg-4 col-md-6">
+            <div class="door">
+              <!-- Title -->
+              <h3 class="door__title">SKYLINE Модель 55.21</h3>
+
+              <!-- Price -->
+              <b class="door__price door__price-sale">24 500 ₽ <span>34 500 ₽</span></b>
+
+              <!-- Picture -->
+              <div class="swiper door__slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide door__img-box">
+                    <picture><source srcset="images/door-1.webp" type="image/webp"><img src="images/door-1.jpg" alt="" class="door__img"></picture>
+                  </div>
+                  <div class="swiper-slide door__img-box">
+                    <picture><source srcset="images/door-1.webp" type="image/webp"><img src="images/door-1.jpg" alt="" class="door__img"></picture>
+                  </div>
+                  <div class="swiper-slide door__img-box">
+                    <picture><source srcset="images/door-1.webp" type="image/webp"><img src="images/door-1.jpg" alt="" class="door__img"></picture>
+                  </div>
+                </div>
+
+                <div class="df">
+                  <!-- Colors of Door -->
+                  <ul class="door__colors"></ul>
+
+                  <!-- Order -->
+                  <a href="#" class="door__purchase">купить</a>
+                </div>
+              </div>
+
+
+
+            </div>
+          </li>
+          <!-- Door -->
+          <li class="col-lg-4 col-md-6">
+            <div class="door">
+              <!-- Title -->
+              <h3 class="door__title">SKYLINE Модель 55.21</h3>
+
+              <!-- Price -->
+              <b class="door__price">24 500 ₽</b>
+
+              <!-- Picture -->
+              <div class="swiper door__slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide door__img-box">
+                    <picture><source srcset="images/door-1.webp" type="image/webp"><img src="images/door-1.jpg" alt="" class="door__img"></picture>
+                  </div>
+                  <div class="swiper-slide door__img-box">
+                    <picture><source srcset="images/door-1.webp" type="image/webp"><img src="images/door-1.jpg" alt="" class="door__img"></picture>
+                  </div>
+                  <div class="swiper-slide door__img-box">
+                    <picture><source srcset="images/door-1.webp" type="image/webp"><img src="images/door-1.jpg" alt="" class="door__img"></picture>
+                  </div>
+                </div>
+
+                <div class="df">
+                  <!-- Colors of Door -->
+                  <ul class="door__colors"></ul>
+
+                  <!-- Order -->
+                  <a href="#" class="door__purchase">купить</a>
+                </div>
+              </div>
+
+
+
+            </div>
+          </li>
+
+          <!-- View All Doors -->
+          <div class="col-12">
+            <button class="showcase__button button ">показать все</button>
+          </div>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Help with choose -->
+    <section class="help">
+      <div class="help__container container">
+
+        <article class="help__box">
+          <!-- Help Picture -->
+          <picture><source srcset="images/help.webp" type="image/webp"><img src="images/help.jpg" alt="Help" class="help__image"></picture>
+          <!-- Help Content -->
+          <div class="help__content">
+            <!-- Title -->
+            <b class="help__title">Нужна помощь с выбором?</b>
+            <!-- Description -->
+            <p class="help__description">
+              Наши специалисты с радостью помогут Вам, оставьте свой номер телефона!
+            </p>
+            <!-- Form -->
+            <form action="" class="help__form">
+              <!-- Name -->
+              <label for="help-name">Как вас зовут ?</label>
+              <input type="text" placeholder="Как вас зовут ?" id="help-name">
+
+              <!-- Phone Number -->
+              <label for="help-phone">Ваш телефон</label>
+              <input type="phone" placeholder="Ваш телефон" id="help-phone">
+
+              <!-- Submit Button -->
+              <button class="help__button button default" type="submit">Связаться с нами</button>
+            </form>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Blog Posts -->
+    <section class="posts">
+      <div class="posts__container container">
+
+        <!-- Posts Header -->
+        <div class="posts__header">
+          <!-- Title -->
+          <h2 class="posts__title">
+            Новые статьи
+          </h2>
+
+          <!-- Link To Blog -->
+          <a href="#" class="posts__link">Все статьи</a>
+        </div>
+
+        <!-- Posts -->
+        <section class="posts__row row">
+          <!-- Post -->
+          <div class="col-lg-4 col-md-6">
+            <article class="post">
+
+              <!-- Image -->
+              <img src="images/post-1.jpg"
+                alt="Графичный дизайн и бескомпромиссное качество в коллекции перегородок Grafica" class="post__img">
+
+              <div class="post__content">
+                <!-- Title -->
+                <h3 class="post__title">
+                  Графичный дизайн и бескомпромиссное качество в коллекции перегородок Grafica
+                </h3>
+
+                <!-- Descriptio -->
+                <p class="post__description">
+                  В этой коллекции мы создали многообразие дизайна створок и оснастили межкомнатные перегородки
+                  безупречным качеством механизмов. Особенность коллекции — плавность скольжения, комфорт и дизайн.
+                </p>
+
+                <div class="df">
+                  <!-- Link to post -->
+                  <a href="#" class="post__link">Читать далее</a>
+
+                  <!-- Date of Post -->
+                  <p class="post__date">15 октября 2022</p>
+                </div>
+
+              </div>
+
+
+            </article>
+          </div>
+          <!-- Post End -->
+          <!-- Post -->
+          <div class="col-lg-4 col-md-6">
+            <article class="post">
+
+              <!-- Image -->
+              <img src="images/post-1.jpg"
+                alt="Графичный дизайн и бескомпромиссное качество в коллекции перегородок Grafica" class="post__img">
+
+              <div class="post__content">
+                <!-- Title -->
+                <h3 class="post__title">
+                  Графичный дизайн и бескомпромиссное качество в коллекции перегородок Grafica
+                </h3>
+
+                <!-- Descriptio -->
+                <p class="post__description">
+                  В этой коллекции мы создали многообразие дизайна створок и оснастили межкомнатные перегородки
+                  безупречным качеством механизмов. Особенность коллекции — плавность скольжения, комфорт и дизайн.
+                </p>
+
+                <div class="df">
+                  <!-- Link to post -->
+                  <a href="#" class="post__link">Читать далее</a>
+
+                  <!-- Date of Post -->
+                  <p class="post__date">15 октября 2022</p>
+                </div>
+
+              </div>
+
+
+            </article>
+          </div>
+          <!-- Post End -->
+          <!-- Post -->
+          <div class="col-lg-4 col-md-6">
+            <article class="post">
+
+              <!-- Image -->
+              <img src="images/post-1.jpg"
+                alt="Графичный дизайн и бескомпромиссное качество в коллекции перегородок Grafica" class="post__img">
+
+              <div class="post__content">
+                <!-- Title -->
+                <h3 class="post__title">
+                  Графичный дизайн и бескомпромиссное качество в коллекции перегородок Grafica
+                </h3>
+
+                <!-- Descriptio -->
+                <p class="post__description">
+                  В этой коллекции мы создали многообразие дизайна створок и оснастили межкомнатные перегородки
+                  безупречным качеством механизмов. Особенность коллекции — плавность скольжения, комфорт и дизайн.
+                </p>
+
+                <div class="df">
+                  <!-- Link to post -->
+                  <a href="#" class="post__link">Читать далее</a>
+
+                  <!-- Date of Post -->
+                  <p class="post__date">15 октября 2022</p>
+                </div>
+
+              </div>
+
+
+            </article>
+          </div>
+          <!-- Post End -->
+          <!-- Post -->
+          <div class="col-lg-4 col-md-6">
+            <article class="post">
+
+              <!-- Image -->
+              <img src="images/post-1.jpg"
+                alt="Графичный дизайн и бескомпромиссное качество в коллекции перегородок Grafica" class="post__img">
+
+              <div class="post__content">
+                <!-- Title -->
+                <h3 class="post__title">
+                  Графичный дизайн и бескомпромиссное качество в коллекции перегородок Grafica
+                </h3>
+
+                <!-- Descriptio -->
+                <p class="post__description">
+                  В этой коллекции мы создали многообразие дизайна створок и оснастили межкомнатные перегородки
+                  безупречным качеством механизмов. Особенность коллекции — плавность скольжения, комфорт и дизайн.
+                </p>
+
+                <div class="df">
+                  <!-- Link to post -->
+                  <a href="#" class="post__link">Читать далее</a>
+
+                  <!-- Date of Post -->
+                  <p class="post__date">15 октября 2022</p>
+                </div>
+
+              </div>
+
+
+            </article>
+          </div>
+          <!-- Post End -->
+          <!-- Post -->
+          <div class="col-lg-4 col-md-6">
+            <article class="post">
+
+              <!-- Image -->
+              <img src="images/post-1.jpg"
+                alt="Графичный дизайн и бескомпромиссное качество в коллекции перегородок Grafica" class="post__img">
+
+              <div class="post__content">
+                <!-- Title -->
+                <h3 class="post__title">
+                  Графичный дизайн и бескомпромиссное качество в коллекции перегородок Grafica
+                </h3>
+
+                <!-- Descriptio -->
+                <p class="post__description">
+                  В этой коллекции мы создали многообразие дизайна створок и оснастили межкомнатные перегородки
+                  безупречным качеством механизмов. Особенность коллекции — плавность скольжения, комфорт и дизайн.
+                </p>
+
+                <div class="df">
+                  <!-- Link to post -->
+                  <a href="#" class="post__link">Читать далее</a>
+
+                  <!-- Date of Post -->
+                  <p class="post__date">15 октября 2022</p>
+                </div>
+
+              </div>
+
+
+            </article>
+          </div>
+          <!-- Post End -->
+          <!-- Post -->
+          <div class="col-lg-4 col-md-6">
+            <article class="post">
+
+              <!-- Image -->
+              <img src="images/post-1.jpg"
+                alt="Графичный дизайн и бескомпромиссное качество в коллекции перегородок Grafica" class="post__img">
+
+              <div class="post__content">
+                <!-- Title -->
+                <h3 class="post__title">
+                  Графичный дизайн и бескомпромиссное качество в коллекции перегородок Grafica
+                </h3>
+
+                <!-- Descriptio -->
+                <p class="post__description">
+                  В этой коллекции мы создали многообразие дизайна створок и оснастили межкомнатные перегородки
+                  безупречным качеством механизмов. Особенность коллекции — плавность скольжения, комфорт и дизайн.
+                </p>
+
+                <div class="df">
+                  <!-- Link to post -->
+                  <a href="#" class="post__link">Читать далее</a>
+
+                  <!-- Date of Post -->
+                  <p class="post__date">15 октября 2022</p>
+                </div>
+
+              </div>
+
+
+            </article>
+          </div>
+          <!-- Post End -->
+        </section>
+      </div>
+    </section>
+  </main>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20230108192421"></script>
+  <script src="js/app.min.js?_v=20230108192421"></script>
+</body>
+
+</html>
